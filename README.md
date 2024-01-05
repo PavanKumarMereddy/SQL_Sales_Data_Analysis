@@ -1,2 +1,2 @@
 # SQL_Sales_Data_Analysis
-SQL_Sales_Data_Analysis
+This project explores a sales dataset using SQL to derive valuable insights and answer key business questions. From identifying top-selling products to analyzing revenue trends and customer behavior, the SQL queries provide a comprehensive view of sales performance. The project includes data exploration, visualizations, and actionable recommendations based on the analysis.

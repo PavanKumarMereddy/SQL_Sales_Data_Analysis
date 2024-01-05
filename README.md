@@ -104,7 +104,8 @@ Code Snippets
 
 ## File Organization
 •	The project files are organized in a directory structure for clarity.
-Final Review
+
+## Final Review
 The documentation is reviewed for clarity, completeness, and correctness.
 
 ## Acknowledgments

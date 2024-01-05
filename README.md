@@ -35,6 +35,7 @@ GROUP BY product
 ORDER BY total_quantity DESC
 LIMIT 5;
 
+![image](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/f1fe6fac-375e-4d06-95f7-411f7ef991df)
 
 
 Expected Outcome: A list of the top-selling products with their respective quantities ordered.

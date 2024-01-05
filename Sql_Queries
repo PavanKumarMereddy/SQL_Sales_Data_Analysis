@@ -1,0 +1,61 @@
+-- Question 1: Top-Selling Products
+SELECT product, SUM(quantity_ordered) AS total_quantity
+FROM sales_data
+GROUP BY product
+ORDER BY total_quantity DESC
+LIMIT 5;
+
+-- Question 2: Revenue Analysis
+SELECT SUM(quantity_ordered * price) AS total_revenue
+FROM sales_data;
+
+-- Question 3: Monthly Sales Trends
+SELECT EXTRACT(MONTH FROM order_date) AS month, SUM(quantity_ordered * price) AS monthly_revenue
+FROM sales_data
+GROUP BY month
+ORDER BY month;
+
+-- Question 4: City-wise Sales Performance
+SELECT city, SUM(quantity_ordered * price) AS total_sales
+FROM sales_data
+GROUP BY city
+ORDER BY total_sales DESC
+LIMIT 1;
+
+-- Question 5: Order Quantity Distribution
+SELECT quantity_ordered, COUNT(*) AS order_count
+FROM sales_data
+GROUP BY quantity_ordered
+ORDER BY quantity_ordered;
+
+-- Question 6: Average Order Value
+SELECT AVG(quantity_ordered * price) AS average_order_value
+FROM sales_data;
+
+-- Question 7: Seasonal Sales Analysis
+SELECT EXTRACT(MONTH FROM order_date) AS month, AVG(quantity_ordered * price) AS average_monthly_sales
+FROM sales_data
+GROUP BY month
+ORDER BY month;
+
+-- Question 8: Correlation Between Price and Sales
+SELECT AVG(price) AS average_price, AVG(quantity_ordered) AS average_quantity
+FROM sales_data;
+
+-- Question 9: Customer Segmentation
+-- Example: Using CASE statements to categorize customers based on order quantity
+SELECT
+    CASE
+        WHEN quantity_ordered >= 10 THEN 'High'
+        WHEN quantity_ordered >= 5 THEN 'Medium'
+        ELSE 'Low'
+    END AS customer_segment,
+    COUNT(*) AS customer_count
+FROM sales_data
+GROUP BY customer_segment;
+
+-- Question 10: Geographical Analysis
+SELECT city, SUM(quantity_ordered * price) AS total_sales
+FROM sales_data
+GROUP BY city
+ORDER BY total_sales DESC;

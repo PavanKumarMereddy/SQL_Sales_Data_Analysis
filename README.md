@@ -21,7 +21,8 @@ The dataset contains the following columns:
 - month
 
 ## SQL Queries
-## Top-Selling Products:
+Top-Selling Products:![graph_visualiser-1704454623376](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/48010f67-0f81-4043-9c31-79425269d992)
+
 
 ## Question: What are the top 5 best-selling products in terms of quantity ordered?
 

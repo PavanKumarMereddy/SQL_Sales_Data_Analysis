@@ -1,4 +1,4 @@
-# Sales Data Analysis Project Documentation
+# Sales Data Analysis Project 
 
 ## Project Overview
 This project aims to analyse a sales dataset to derive insights into product performance, revenue trends, and customer behaviour. The dataset includes information such as order ID, product details, quantity ordered, prices, order date, purchase addresses, sales amounts, city, and month.

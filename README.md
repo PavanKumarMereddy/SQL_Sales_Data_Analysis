@@ -22,24 +22,19 @@ The dataset contains the following columns:
 
 ## SQL Queries
 Top-Selling Products:
+
 Question: What are the top 5 best-selling products in terms of quantity ordered?
-1
-2
-3
-4
-5
-6	--Question1: What are the top 5 best-selling products in terms of quantity ordered?
 
 SELECT product, SUM(quantity_ordered) AS total_quantity FROM sales_data
 GROUP BY product
 ORDER BY total_quantity DESC
 LIMIT 5;
 
-![image](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/f1fe6fac-375e-4d06-95f7-411f7ef991df)
 
 
 Expected Outcome: A list of the top-selling products with their respective quantities ordered.
  
+![image](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/6074787b-6607-4de5-b5ab-de527754487c)
 
 
 Revenue Analysis:

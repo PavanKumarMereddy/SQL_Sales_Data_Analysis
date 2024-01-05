@@ -25,12 +25,14 @@ The dataset contains the following columns:
 
 ## Question: What are the top 5 best-selling products in terms of quantity ordered?
 
-SELECT product, SUM(quantity_ordered) AS total_quantity FROM sales_data
+--Question: How do sales vary across different regions or addresses?
+
+--Question1: What are the top 5 best-selling products in terms of quantity ordered?
+
+SELECT product,SUM(quantity_ordered) AS total_quantity FROM sales_data
 GROUP BY product
 ORDER BY total_quantity DESC
-LIMIT 5;
-
-
+LIMIT 5
 
 ## Expected Outcome: A list of the top-selling products with their respective quantities ordered.
  

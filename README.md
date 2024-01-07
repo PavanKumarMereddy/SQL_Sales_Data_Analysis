@@ -144,9 +144,9 @@ ORDER BY monthly_revenue DESC;
 **Correlation Between Price and Sales:**
 
 **Question:** Is there a correlation between the product price and the quantity ordered?
-
---Question: Is there a correlation between the product price and the quantity ordered?
 ```sql
+--Question: Is there a correlation between the product price and the quantity ordered?
+
 SELECT AVG(price) AS avg_price, AVG(quantity_ordered) AS avg_quantity
 FROM sales_data;
 ```
@@ -182,9 +182,9 @@ GROUP BY customer_segment;
 **Geographical Analysis:**
 
 **Question:** How do sales vary across different regions or addresses?
-
- --Question: How do sales vary across different regions or addresses?
 ```sql
+ --Question: How do sales vary across different regions or addresses?
+
 SELECT city, SUM(quantity_ordered * price) AS Revenue_by_region
 FROM sales_data
 GROUP BY city;
@@ -194,6 +194,28 @@ GROUP BY city;
 
 ![image](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/45a30026-28f5-4707-ac3c-67c296244218)
 ![graph_visualiser-1704454623376](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/e3fc2b9f-8ce0-4eea-8ea8-c636e6a761e8)
+
+
+## Data Exploration and Visualizations
+•	Explored the distribution of order quantities using Piechart.
+•	Visualized monthly sales trends over time.
+•	Sales across different regions.
+
+## Data Cleaning and Transformation
+•	Handled missing values by excluding rows with NULL in critical columns.
+•	Converted the 'order_date' column to a datetime format for better analysis.
+•	No significant outliers were identified.
+
+## Results and Analysis
+•	Top-selling products: 
+a)	AAA Batteries (4-pack)
+b)	AA Batteries (4-pack)
+c)	USB-C Charging Cable
+d)	Lightning Charging Cable
+e)	Wired Headphones.
+•	Total revenue: $ 34M.
+•	Monthly sales trends: 
+
 
 
 

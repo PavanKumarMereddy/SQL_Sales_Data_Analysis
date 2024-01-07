@@ -197,22 +197,28 @@ GROUP BY city;
 
 
 ## Data Exploration and Visualizations
+```
 •	Explored the distribution of order quantities using Piechart.
 •	Visualized monthly sales trends over time.
 •	Sales across different regions.
+```
 
 ## Data Cleaning and Transformation
+```
 •	Handled missing values by excluding rows with NULL in critical columns.
 •	Converted the 'order_date' column to a datetime format for better analysis.
 •	No significant outliers were identified.
+```
 
 ## Results and Analysis
 •	Top-selling products: 
+```
 a)	AAA Batteries (4-pack)
 b)	AA Batteries (4-pack)
 c)	USB-C Charging Cable
 d)	Lightning Charging Cable
 e)	Wired Headphones.
+```
 •	Total revenue: $ 34M.
 •	Monthly sales trends: 
 

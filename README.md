@@ -211,7 +211,7 @@ GROUP BY city;
 ```
 
 ## Results and Analysis
-•	Top-selling products: 
+**Top-selling products:** 
 ```
 a)	AAA Batteries (4-pack)
 b)	AA Batteries (4-pack)
@@ -222,7 +222,61 @@ e)	Wired Headphones.
 **Total revenue:** **$ 34M**
 >Total Revenue $34 Million
 
-**Monthly sales trends:** 
+**Monthly sales trends** 
+![graph_visualiser-1704455263310](https://github.com/PavanKumarMereddy/SQL_Sales_Data_Analysis/assets/155641231/cf643de4-dcad-45ae-b9b3-af5af948bd1f)
+
+## Insights and Recommendations
+
+* Products `AAA Batteries`, `AA Batteries`, `USB-C Charging Cable`, `Lightning Charging Cable`, `Wired Headphones` are consistently high-performing; consider targeted marketing strategies.
+
+* Monthly sales exhibit a `seasonal pattern`, with peaks during `Jan - Dec` . Plan promotions accordingly.
+
+## Review and Refinement
+
+*	Reviewed `SQL queries` and addressed feedback on query optimization.
+
+*	Refinements made to visualizations for clarity.
+
+## Challenges Faced
+
+*	Addressed issues with `NULL` values in the dataset.
+
+*	Overcame challenges related to `Data Import`, `Organising`, `Quering`.
+
+## Next Steps
+
+*	Explore customer segmentation based on purchasing behavior.
+
+*	Conduct a more granular analysis of sales in specific regions.
+
+
+## Conclusion
+
+* The project successfully provided insights into `top-selling products`, `revenue trends`, and `monthly sales patterns`. The findings can guide marketing and sales strategies for improved performance.
+
+## References
+
+*	No external references used.
+
+## Code Snippets
+
+*	Relevant code snippets for `SQL queries` and data `visualizations` are embedded within the documentation.
+
+## File Organization
+
+*	The `project` files are organized in a directory structure for clarity.
+
+## Final Review
+
+*	The documentation is reviewed for clarity, completeness, and correctness.
+
+## Acknowledgments
+
+*	No external contributions for this project.
+
+## Portfolio Inclusion
+
+This project showcases skills in `SQL`, `data analysis`, and `visualization`, making it a valuable addition to the portfolio.
 
 
 

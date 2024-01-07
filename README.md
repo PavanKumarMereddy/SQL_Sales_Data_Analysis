@@ -219,8 +219,10 @@ c)	USB-C Charging Cable
 d)	Lightning Charging Cable
 e)	Wired Headphones.
 ```
-•	Total revenue: $ 34M.
-•	Monthly sales trends: 
+**Total revenue:** **$ 34M**
+>Total Revenue $34 Million
+
+**Monthly sales trends:** 
 
 
 
